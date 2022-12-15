@@ -1,4 +1,5 @@
-﻿using System;
+﻿using eTickets.Models;
+using System;
 using System.ComponentModel.DataAnnotations;
 
 public class Actor
@@ -9,4 +10,6 @@ public class Actor
     public string FullName { get; set; }
     public string Bio { get; set; }
 
+    //Relationships
+    public List<Actor_Movie> Actors_Movies { get; set; }
 }
