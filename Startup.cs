@@ -1,4 +1,6 @@
-﻿namespace eTickets
+﻿using eTickets.Data;
+
+namespace eTickets
 {
     public class Startup
     {
@@ -30,6 +32,8 @@
             {
                 endpoints.MapRazorPages();
             });
+
+
         }
     }
 }

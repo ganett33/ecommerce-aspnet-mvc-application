@@ -7,6 +7,7 @@
         Animated,
         Comedy,
         Drama,
+        Documentary,
         Fantasy,
         Historical,
         Horror,
