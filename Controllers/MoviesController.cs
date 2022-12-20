@@ -16,7 +16,7 @@ namespace eTickets.Controllers
         {
             var allMovies = await _context.Movies.ToListAsync();  //Asynchronous way fo getting data from database
 
-            return View();
+            return View(allMovies);
         }
     }
 }
