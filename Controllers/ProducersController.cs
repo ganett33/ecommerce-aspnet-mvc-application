@@ -16,7 +16,8 @@ namespace eTickets.Controllers
         {
             var allProducers = await _context.Producers.ToListAsync();  //Asynchronous way fo getting data from database
 
-            return View();
+            //return View("IndexNew", allProducers); // when IndexNew.cshtml is view for Producers
+            return View( allProducers);
         }
     }
 }
